@@ -1,0 +1,31 @@
+1) Mapreduce program is needed for pig, since it has many built in functions and operations,its Lines of code is 1/20 times compared to MapReduce and also reduces the effort.
+   It has the ability to perform computations which cannot be done by MapReduce.
+   
+2) Advantage of Pig over MapReduce :
+                                   > It has the ability to perform computations which cannot be done by MapReduce.
+                                   
+3) Pig engine :
+              > It acts as a interpreter between Pig Latin Script and MapReduce job.
+              > It creates environment to execute pig scripts into series of MapReduce jobs in parallel manner.
+              
+4) Modes of Pig execution :
+                          > MapReduce / Hadoop Mode : Here the jobs run as a series of MapReduce jobs picking the input and output paths from HDFS 
+                          > Local Mode : Here the entire pig job runs as a single JVM picking the local Unix for execution. 
+
+5) Grunt Shell :
+                > Grunt is an interactive shell for your Pig queries
+                > Used when script file is not provided.
+                > You can run Pig programs in three ways via Script, Grunt, or embedding the script into Java code
+                > To run a batch of pig scripts, it is recommended to place them in a single file and execute them in batch mode.
+                
+6) Pig Latin Language :
+                      > Pig Latin script describes a directed acyclic graph (DAG), where the edges are data flows and the nodes are operators that process the data.
+                      > Pig Latin provides all of the standard data-processing operations, such as join, filter, group by, order by, union, etc.
+                      
+7)  The names of relations and fields are case sensitive.
+The names of Pig Latin functions are case sensitive.
+The names of parameters and all other Pig Latin keywords are case insensitive.
+
+8) Data Flow Language :
+                       Dataflow programming is a programming paradigm that models a program as a directed graph of the data flowing between operations, thus implementing dataflow principles and architecture.
+                      
